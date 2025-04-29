@@ -1,0 +1,20 @@
+name: gestion_depenses
+description: Une application de gestion de dépenses personnelles.
+publish_to: 'none' # puisque c'est un projet local
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
